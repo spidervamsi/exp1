@@ -32,7 +32,7 @@ import java.util.Properties;
 public class WebMVCConfig extends WebMvcConfigurerAdapter
 {
 
-    private static final Logger logger = LoggerFactory.getLogger(WebMVCConfig.class)
+    private static final Logger logger = LoggerFactory.getLogger(WebMVCConfig.class);
 
     @Bean
     public ViewResolver resolver()
